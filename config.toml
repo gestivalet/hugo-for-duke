@@ -2,3 +2,8 @@ baseURL = 'http://hugo-for-duke.s3-website.eu-central-1.amazonaws.com'
 languageCode = 'en-us'
 title = 'My New Hugo Site - 123'
 theme = "ananke"
+
+[[deployment.targets]]
+#Anarbitrarynameforthistarget.
+name="awsbucket"
+URL="s3://hugo-for-duke/?region=eu-central-1"#yourbuckethere
